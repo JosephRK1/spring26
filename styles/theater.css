@@ -1,0 +1,38 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-image: url(../Graph-130/forest.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav p {
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+main, footer {
+    color: white;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 30% auto;
+}
+
+article {
+   border-bottom: 10px solid white;
+   align-self: flex-end;
+}
